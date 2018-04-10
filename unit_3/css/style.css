@@ -1,4 +1,21 @@
 header {
 	text-align: center;
 	background: url(images/hero_sunset_run.jpg);
+	background-size: cover; 
+}
+h4 {
+	text-align: center;
+	text-decoration: bold
+}
+.mind {
+	align-items: left;
+}
+.body {
+	align-items: center;
+}
+.diet {
+	align-items: right;
+}
+.social {
+	text-align: right;
 }
