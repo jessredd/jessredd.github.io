@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:600i|Lato');
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	color:#333;
 	font-size:16px;
-	font-family:helvetica, arial, sans-serif;
+	font-family: 'Exo', sans-serif;
 	line-height:1.3;
 }
 section {
@@ -16,4 +18,7 @@ section {
 	height: 90vh;
 	color: #fff;
 	font-size: 2em;
+}
+p {
+	font-family: 'Lato', sans-serif;
 }
