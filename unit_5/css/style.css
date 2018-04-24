@@ -25,7 +25,14 @@ header {
 	font-size: 2em;
 }
 
-section, div {
+section {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding:4em 0;
+	width: 20em
+}
+
+div {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding:4em 0;
