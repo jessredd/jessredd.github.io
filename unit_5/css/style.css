@@ -10,8 +10,7 @@ body {
 }
 
 header {
-	background-color: #E8C66A;
-	border: 1px black solid;
+	opacity: 0;
 	padding:4em 0;
 }
 
