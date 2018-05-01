@@ -10,6 +10,7 @@ body {
 }
 
 header {
+	width: 100%;
 	display: block;
 	float:left;
 	background-color:#5081ca; 
@@ -24,13 +25,6 @@ nav a {
 	padding: 20px
 }
 
-.clearfix{
-	visibility: hidden;
-	display: block;
-	clear:both;
-}
-
-
 #hero {
 	background-image: url("../images/hero_sunset_run.jpg");
 	background-size: cover;
@@ -38,6 +32,7 @@ nav a {
 	height: 100vh;
 	color: #5081ca;
 	font-size: 2em;
+	vertical-align: middle;
 }
 
 .course {
@@ -56,6 +51,7 @@ nav a {
 
 p {
 	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 }
 
 #discount {
