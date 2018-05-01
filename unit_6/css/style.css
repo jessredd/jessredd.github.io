@@ -23,12 +23,18 @@ nav a {
 	padding: 20px
 }
 
+.clearfix{
+	visibility: hidden;
+	display: block;
+	clear:both;
+}
+
 
 #hero {
 	background-image: url("../images/hero_sunset_run.jpg");
 	background-size: cover;
 	padding: 4em 0;
-	height: 240vh;
+	height: 120vh;
 	color: #5081ca;
 	font-size: 2em;
 }
