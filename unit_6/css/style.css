@@ -13,6 +13,7 @@ header {
 	display: block;
 	float:left;
 	background-color:#5081ca; 
+	overflow: auto;
 }
 
 nav a {
