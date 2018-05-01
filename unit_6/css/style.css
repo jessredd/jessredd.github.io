@@ -39,6 +39,10 @@ nav a {
 	font-size: 2em;
 }
 
+.tagline {
+	vertical-align: middle;
+}
+
 .course {
 	background-color: #fff;
 	padding:4em 0;
