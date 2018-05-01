@@ -10,14 +10,15 @@ body {
 }
 
 nav {
-	background-opacity: 1.0;
-	color:#333;
 	padding:4em 0;
+	text-align: right;
 }
 
 nav a {
+	color:#333;
 	text-decoration: none;
 	display: block;
+	float: left;
 	padding: 20px
 }
 
