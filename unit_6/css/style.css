@@ -58,8 +58,9 @@ p {
 }
 
 #discount {
-	width:300px;
+	width:600px;
 	margin:auto;
+	padding: 50px;
 	text-align: center;
 	font-size: 1.5em;
 }
