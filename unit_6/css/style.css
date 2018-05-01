@@ -34,13 +34,13 @@ nav a {
 	background-image: url("../images/hero_sunset_run.jpg");
 	background-size: cover;
 	padding: 4em 0;
-	height: 100vh;
+	height: 80vh;
 	color: #5081ca;
 	font-size: 2em;
 }
 
 .tagline {
-	vertical-align: middle;
+	vertical-align: 45vh;
 }
 
 .course {
