@@ -12,9 +12,14 @@ body {
 header {
 	width: 100%;
 	display: block;
-	float:left;
+	clear:both;
 	background-color:#5081ca; 
 	overflow: auto;
+}
+
+nav{
+	float: left;
+	text-align: right;
 }
 
 nav a {
@@ -32,7 +37,6 @@ nav a {
 	height: 100vh;
 	color: #5081ca;
 	font-size: 2em;
-	vertical-align: middle;
 }
 
 .course {
