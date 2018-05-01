@@ -9,13 +9,10 @@ body {
 	line-height:1.3;
 }
 
-header p {
-	clear:both;
-}
-
-nav {
+header {
+	display: block;
+	float:left;
 	background-color:#5081ca; 
-	padding:.5em 0;
 }
 
 nav a {
