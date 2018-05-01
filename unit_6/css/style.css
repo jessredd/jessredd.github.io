@@ -41,11 +41,11 @@ nav a {
 }
 
 .course {
-	background-color: #FFE2B8;
-	border: 1px black solid;
+	background-color: #fff;
 	padding:4em 0;
 	width: 33.33%;
 	float: left;
+	text-align: center;
 }
 
 .cta{
