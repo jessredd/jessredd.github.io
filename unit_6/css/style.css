@@ -48,8 +48,19 @@ nav a {
 	float: left;
 }
 
+#cta{
+	color:#5081ca;
+	text-decoration: none;
+}
+
 p {
 	font-family: 'Lato', sans-serif;
+}
+
+#discount {
+	text-align: center;
+	font-size: 1.5em
+	padding: 50px;
 }
 
 footer {
