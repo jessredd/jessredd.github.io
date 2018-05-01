@@ -39,6 +39,10 @@ nav a {
 	font-size: 2em;
 }
 
+#hero h2 {
+	text-align: center;
+}
+
 .tagline {
 	vertical-align: 55vh;
 }
