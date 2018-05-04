@@ -30,7 +30,7 @@ nav a {
 #hero {
 	background-image: url("../images/hero_sunset_run.jpg");
 	background-size: cover;
-	padding: 4em 0;
+	padding: 8em .5em;
 	height: 80vh;
 	color: #fff;
 	font-size: 2em;
@@ -42,9 +42,8 @@ nav a {
 
 .course {
 	background-color: #fff;
-	padding:4em 0;
-	width: 27.33%;
-	margin:3%;
+	padding:4em 4em;
+	width: 33.33%;
 	float: left;
 	text-align: center;
 }
@@ -52,6 +51,12 @@ nav a {
 .cta{
 	color:#5081ca;
 	text-decoration: none;
+}
+
+.learn{
+	color:#5081ca;
+	text-decoration: none;
+	font-size: 2em;
 }
 
 p {
