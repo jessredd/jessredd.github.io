@@ -13,20 +13,21 @@ header {
 	width: 100%;
 	display: block;
 	clear:both;
-	background-color:#5081ca; 
-	overflow: auto;
 }
 
 nav{
-	float: left;
+	float: right;
 	text-align: right;
+}
+
+p header {
+	float: left;
 }
 
 nav a {
 	color:#333;
 	text-decoration: none;
 	display: block;
-	float: left;
 	padding: 20px
 }
 
