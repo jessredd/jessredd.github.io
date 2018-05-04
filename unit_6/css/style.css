@@ -39,6 +39,7 @@ nav a {
 
 .tagline {
 	vertical-align: 55vh;
+	text-shadow: 2px 2px 8px #000;
 }
 
 .course {
@@ -80,7 +81,6 @@ p {
 
 #lower_cta{
 	color:#5081ca;
-	font-weight:bold;	
 }
 
 footer {
