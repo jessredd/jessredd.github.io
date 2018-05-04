@@ -51,12 +51,14 @@ nav a {
 .cta{
 	color:#5081ca;
 	text-decoration: none;
+	text-shadow: 2px 2px 8px #0043ff;
+    padding: 1em;
 }
 
 .learn{
 	color:#5081ca;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 p {
@@ -72,6 +74,11 @@ p {
 	font-size: 25px;
 	text-align: center;
 	vertical-align: middle;
+}
+
+#lower_cta{
+	color:#5081ca;
+	font-weight:bold;	
 }
 
 footer {
