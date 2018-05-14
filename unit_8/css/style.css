@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:600i|Lato');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	color:#333;
+	font-size:16px;
+	font-family: 'Exo', sans-serif;
+	line-height:1.3;
+}
+
+header {
+	width: 100%;
+	display: block;
+	clear:both;
+}
+
+nav{
+	float: right;
+	text-align: right;
+	padding: 1.5em;
+}
+
+
+nav a {
+	color:#333;
+	text-decoration: none;
+	padding: 20px;
+}
+
+#hero {
+	background-image: url("../images/hero_sunset_run.jpg");
+	background-size: cover;
+	padding: 8em .5em;
+	height: 80vh;
+	color: #fff;
+	font-size: 2em;
+}
+
+.tagline {
+	vertical-align: 55vh;
+	text-shadow: 2px 2px 8px #000;
+}
+
+.course {
+	background-color: #fff;
+	padding:4em 4em;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.cta{
+	color:#5081ca;
+	text-decoration: none;
+	text-shadow: 2px 2px 8px #0043ff;
+    padding: 1em;
+}
+
+.learn{
+	color:#5081ca;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	float: left;
+	padding: 1em;
+}
+
+#discount {
+	width:100%;
+	margin:auto;
+	padding: 25px;
+	font-size: 25px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#lower_cta{
+	color:#5081ca;
+}
+
+footer {
+	background-color: #4d4745;
+	border: 1px black solid;
+	padding:4em 0;
+	text-align: right;
+	height: 1em;
+}
+
+#follow {
+	padding-right: 10px;
+    padding-left: 1175px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
