@@ -92,6 +92,13 @@ footer {
 	height: 1em;
 }
 
+#copyright {
+	width:50%;
+}
+
+#social {
+	width:50%;
+}
 
 .fa {
   padding: 20px;
