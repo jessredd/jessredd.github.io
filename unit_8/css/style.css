@@ -84,6 +84,7 @@ p {
 }
 
 footer {
+	width:100%;
 	background-color: #4d4745;
 	border: 1px black solid;
 	padding:4em 0;
@@ -91,10 +92,6 @@ footer {
 	height: 1em;
 }
 
-#follow {
-	padding-right: 10px;
-    padding-left: 1175px;
-}
 
 .fa {
   padding: 20px;
