@@ -130,7 +130,7 @@ footer {
 	}
 	.f_column {
 		float:none;
-		display:block;
+		display:inline-block;
 		width: auto;
 	}
 }
