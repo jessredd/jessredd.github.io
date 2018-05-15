@@ -146,6 +146,7 @@ footer {
     }
     #hero {
     	padding: .5em
+    	height: 20em;
     }
     .course {
         float: none; 
