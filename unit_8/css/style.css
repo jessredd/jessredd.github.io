@@ -125,6 +125,9 @@ footer {
 		float:none;
 		width: auto;
 	}
+	footer {
+		overflow: auto;
+	}
 	.f_column {
 		float:none;
 		display:block;
@@ -150,11 +153,12 @@ footer {
     }
     footer {
     	display: block;
-    	
+    	overflow: auto;
     }
     .f_column {
 		float:none;
-		display:block;
+		display:inline-block;
 		width: auto;
+		padding:0;
 	}
 }
