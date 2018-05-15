@@ -93,6 +93,7 @@ footer {
 .f_column {
 	width:50%;
 	float: left;
+	padding-left: 26em;
 }
 
 .fa {
@@ -124,6 +125,11 @@ footer {
 		float:none;
 		width: auto;
 	}
+	.f_column {
+		float:none;
+		display:block;
+		width: auto;
+	}
 }
 
 @media only screen and (max-width: 480px) {
@@ -146,4 +152,9 @@ footer {
     	display: block;
     	
     }
+    .f_column {
+		float:none;
+		display:block;
+		width: auto;
+	}
 }
