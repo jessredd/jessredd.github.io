@@ -63,7 +63,7 @@ nav a {
 	font-size: 1.5em;
 }
 
-p {
+p .course {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 	float: left;
@@ -87,7 +87,6 @@ footer {
 	background-color: #4d4745;
 	border: 1px black solid;
 	padding:4em 0;
-	text-align: right;
 	height: 1em;
 }
 
