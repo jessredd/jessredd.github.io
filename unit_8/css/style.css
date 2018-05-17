@@ -24,6 +24,10 @@ header {
 	clear:both;
 }
 
+header p {
+	float: left;
+}
+
 nav{
 	float: right;
 	text-align: right;
@@ -95,7 +99,6 @@ footer {
 	background-color: #4d4745;
 	border: 1px black solid;
 	padding:4em 0;
-	height: 1em;
 }
 
 .f_column {
