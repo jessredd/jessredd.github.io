@@ -135,12 +135,8 @@ footer {
 		float:none;
 		width: auto;
 	}
-	footer {
-		overflow: auto;
-	}
+	
 	.f_column {
-		float:none;
-		display:inline-block;
 		width: auto;
 	}
 }
