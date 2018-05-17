@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:600i|Lato');
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+body {
+	color:#333;
+	font-size:16px;
+	font-family: 'Exo', sans-serif;
+	line-height:1.3;
+}
+
+header {
+	width: 100%;
+	display: block;
+	clear:both;
+}
+
+#logo {
+	float: left;
+}
+
+nav{
+	float: right;
+	text-align: right;
+	padding: 1.5em;
+}
+
+
+nav a {
+	color:#333;
+	text-decoration: none;
+	padding: 20px;
+}
+
+#hero {
+	background-image: url("../images/hero_sunset_run.jpg");
+	background-size: cover;
+	padding: 8em .5em;
+	height: 80vh;
+	color: #fff;
+	font-size: 2em;
+}
+
+.tagline {
+	vertical-align: 55vh;
+	text-shadow: 2px 2px 8px #000;
+}
+
+.course {
+	background-color: #fff;
+	padding:4em 4em;
+	width: 33.33%;
+	float: left;
+	text-align: center;
+}
+
+.cta{
+	color:#5081ca;
+	text-decoration: none;
+	text-shadow: 2px 2px 8px #0043ff;
+    padding: 1em;
+}
+
+.learn{
+	color:#5081ca;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.25em;
+	padding: 1em;
+}
+
+#discount {
+	width:100%;
+	margin:auto;
+	padding: 25px;
+	font-size: 1.5em;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#lower_cta{
+	color:#5081ca;
+}
+
+footer {
+	background-color: #4d4745;
+	border: 1px black solid;
+	padding:4em 0;
+}
+
+.f_column {
+	width:50%;
+	float: left;
+	padding-left: 26em;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+@media only screen and (max-width: 1000px) {
+	.course {
+		float:none;
+		width: auto;
+	}
+	footer {
+		overflow: auto;
+	}
+	.f_column {
+		float:none;
+		display:inline-block;
+		width: auto;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+    nav {
+    	display: block;
+    	text-align: center;
+    }
+    nav a {
+    	padding: .5em;
+
+    }
+    #hero {
+    	padding: .5em
+    	height: 20em;
+    }
+    .course {
+        float: none; 
+        width: auto; 
+    }
+    footer {
+    	display: block;
+    	overflow: auto;
+    }
+    .f_column {
+		float:none;
+		display:inline-block;
+		width: auto;
+		padding:0;
+	}
+}
