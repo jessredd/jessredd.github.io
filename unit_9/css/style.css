@@ -45,7 +45,7 @@ nav a {
 	background-image: url("../images/hero_sunset_run.jpg");
 	background-size: cover;
 	padding: 8em .5em;
-	height: 80vh;
+	min-height: 80vh;
 	color: #fff;
 	font-size: 2em;
 }
@@ -67,7 +67,7 @@ nav a {
 	color:#5081ca;
 	text-decoration: none;
 	text-shadow: 2px 2px 8px #0043ff;
-    padding: 1em;
+    padding: 1em 1em 2em 1em;
 }
 
 .learn{
@@ -102,9 +102,8 @@ footer {
 }
 
 .f_column {
-	width:50%;
-	float: left;
-	padding-left: 26em;
+	width:100%;
+	text-align: center;
 }
 
 .fa {
