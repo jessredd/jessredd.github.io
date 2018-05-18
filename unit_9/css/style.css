@@ -21,7 +21,6 @@ body {
 header {
 	width: 100%;
 	display: block;
-	clear:both;
 }
 
 #logo {
@@ -163,16 +162,27 @@ footer {
 }
 
 @media only screen and (max-width: 580px) {
-
+	body {
+		font-size: 14px;
+	}
+	nav{
+		background-color: black;
+		width:100%
+	}
+	#logo {
+		display: none;
+	}
+	nav a {
+		color: white;
+	}
+	#hero {
+		min-height: 15vh;
+	}
+	.course {
+		padding: 2em;
+	}
 }
 
-@media only screen and (max-width: 480px) {
-    nav {
-    	display: block;
-    	text-align: center;
-    }
-    nav a {
-    	padding: .5em;
-
-    }
+@media only screen and (max-width: 490px) {
+    
 }
