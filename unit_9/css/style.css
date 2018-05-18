@@ -135,9 +135,27 @@ footer {
 		float:none;
 		width: auto;
 	}
-	
+
 	.f_column {
 		width: auto;
+	}
+}
+
+@media only screen and (max-width: 850px) {
+	#hero {
+		padding: 5em .5em;
+	}
+	.tagline {
+		font-size: 1.25em;
+	}
+}
+
+@media only screen and (max-width: 715px) {
+	#hero {
+		min-height: 40vh;
+	}
+	.tagline {
+		font-size: 1em;
 	}
 }
 
@@ -150,22 +168,4 @@ footer {
     	padding: .5em;
 
     }
-    #hero {
-    	padding: .5em
-    	height: 20em;
-    }
-    .course {
-        float: none; 
-        width: auto; 
-    }
-    footer {
-    	display: block;
-    	overflow: auto;
-    }
-    .f_column {
-		float:none;
-		display:inline-block;
-		width: auto;
-		padding:0;
-	}
 }
